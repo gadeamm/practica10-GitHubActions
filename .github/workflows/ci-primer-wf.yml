@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: cmd1
-        run: echo "Hello world"
+        run: eccho "Hello world"
       - name: cmd2
         run: |
           node -v 
