@@ -1,0 +1,13 @@
+name: Nombre comando de shell 
+on: [push]
+jobs:
+  ejecutar-comandos-shell:
+    runs-on: ubuntu-latest
+    steps:
+      - name: cmd1
+        run: echo "Hello world"
+      - name: cmd2
+        run: |
+          node -v 
+          pwd
+          cat /etc/os-release
