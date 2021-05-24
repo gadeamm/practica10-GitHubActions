@@ -5,9 +5,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: cmd1
-        run: eccho "Hello world"
+        run: echo "Hello world"
       - name: cmd2
         run: |
           node -v 
           pwd
           cat /etc/os-release
+      - name: 
+        run: |
+          import platform
+          print(platform.processor())
