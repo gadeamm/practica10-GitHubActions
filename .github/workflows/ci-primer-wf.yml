@@ -1,7 +1,9 @@
 name: Nombre comando de shell 
 on: #[push]
   schedule:
-    - cron:  '0/3 * * * *' 
+    - cron:  "0/3 * * * *"
+  # repository_dispatch:
+
 jobs:
   ejecutar-comandos-shell:
     runs-on: ubuntu-latest
