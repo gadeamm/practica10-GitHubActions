@@ -1,7 +1,7 @@
 name: Nombre comando de shell 
 on: #[push]
-  schedule:
-    - cron:  "0/3 * * * *"
+  #schedule:
+   # - cron:  "0/3 * * * *"
   # repository_dispatch:
 
 jobs:
